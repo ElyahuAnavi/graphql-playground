@@ -1,0 +1,22 @@
+{
+  "name": "graphql-playground",
+  "version": "1.0.0",
+  "description": "Practice project based on the concepts learned in the GraphQL Crash Course by Shaun Pelling. It includes a simple GraphQL server built with Express, allowing for querying and mutating book and author data. The project is designed to help deepen understanding of GraphQL basics, schema design, and resolver functions.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@apollo/server": "^4.11.0",
+    "graphql": "^16.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
